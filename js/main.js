@@ -4,6 +4,6 @@ require.config({
     }
 });
 
-require(['app'], function(app){
-    app.hello();
+require(['models/example/example'], function(example){
+    example.init();
 });

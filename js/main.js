@@ -4,6 +4,6 @@ require.config({
     }
 });
 
-require(['models/example/example'], function(example){
+require(['models/example/main'], function(example){
     example.init();
 });

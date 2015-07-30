@@ -1,7 +1,26 @@
-# requirejs base structure
-This is just personal structure for my base workflow of requirejs framework.
+Requirejs base structure
+==================================
 
-usage:
+This is just workflow structure for my base workflow.
+
+
+Structure:
+```bash
+$ tree
+.
+|-- app
+|   |-- build
+|   |-- css
+|   |-- images
+|   |-- js
+|   |-- index.html
+|-- dist (only show after build)
+```
+
+
+
+
+Usage:
 
 - build js/css
 

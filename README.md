@@ -12,6 +12,7 @@ src
 │   │   ├── build.sh
 │   ├── css/
 │       ├── models/
+│       ├── styles.css
 │   ├── images/
 │   └── js/
 │       ├── libs/
@@ -26,11 +27,11 @@ src
 
 ### Usage:
 
-#### build js/css/html
+#### 1. build js/css/html
 
 > in terminal run:
 
 ```
  build/build.sh
- 
+
 ```

@@ -7,21 +7,18 @@ Requirejs base structure
 ```
 src
 ├── app/
-│   ├── bower_components/
-│   │   ├── backbone/
-│   │   ├── jquery/
-│   │   ├── requirejs/
-│   │   ├── requirejs-text/
-│   │   └── underscore/
-│   ├── hello/
-│   │   ├── main.js
-│   │   └── main.template.txt
-│   └── world/
-│       ├── main.js
-│       └── main.template.txt
-├── common.js
-├── hello.html
-└── world.html
+│   ├── build/
+│   │   ├── app.build.js
+│   │   ├── build.sh
+│   ├── css/
+│   ├── images/
+│   └── js/
+│       ├── libs/
+│       ├── models/
+│       ├── views/
+│       └── app.js
+├── dist/ --------------------------------------------------------------- (after build)
+
 ```
 
 

@@ -11,6 +11,7 @@ src
 │   │   ├── app.build.js
 │   │   ├── build.sh
 │   ├── css/
+│       ├── models/
 │   ├── images/
 │   └── js/
 │       ├── libs/
@@ -23,9 +24,13 @@ src
 
 
 
+### Usage:
 
-Usage:
+#### build js/css/html
 
-- build js/css
+> in terminal run:
 
-in terminal: build/build.sh
+```
+ build/build.sh
+ 
+```

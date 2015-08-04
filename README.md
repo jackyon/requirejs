@@ -32,6 +32,7 @@ src
 > in terminal run:
 
 ```
- build/build.sh
+ sudo chmod +x app/build/build.sh
+ app/build/build.sh
 
 ```

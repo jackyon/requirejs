@@ -3,7 +3,8 @@
   baseUrl: "js",
   dir: "../../dist",
   name: 'app',
-  preserveLicenseComments: false,
+  findNestedDependencies: true,  //enable for nested require calls
+  preserveLicenseComments: false, //remove comments
   mainConfigFile: '../js/app.js',
   optimizeCss: 'standard'
 })

@@ -40,7 +40,7 @@ app/build/build.sh
 
 #### 2. Grunt:
 
-##### grunt imagemin ()
+##### grunt imagemin (Minify images)
 This plugin requires Grunt >=0.4.0
 
 If you haven't used Grunt before, be sure to check out the Getting Started guide, as it explains how to create a Gruntfile as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:

@@ -20,6 +20,8 @@ src
 │       ├── views/
 │       └── app.js
 ├── dist/ ----------------------------------------- (after build)
+├── Gruntfiles.js
+├── package.json
 
 ```
 
@@ -36,3 +38,19 @@ src
  app/build/build.sh
 
 ```
+
+#### 2. Grunt:
+
+##### grunt imagemin
+
+###### new install
+(1)nodejs
+(2)npm install -g grunt-cli
+(3)create package.json Gruntfile to your app folder
+(4)npm install grunt-contrib-imagemin --save-dev
+(5)Modify path of setting file "Gruntfile.js"
+(6)grunt imagemin
+
+###### use
+(1)npm install grunt-contrib-imagemin --save-dev
+(2)grunt imagemin

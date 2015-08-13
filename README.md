@@ -34,9 +34,8 @@ src
 > in terminal run:
 
 ```
- sudo chmod +x app/build/build.sh
- app/build/build.sh
-
+sudo chmod +x app/build/build.sh
+app/build/build.sh
 ```
 
 #### 2. Grunt:
@@ -49,5 +48,4 @@ If you haven't used Grunt before, be sure to check out the Getting Started guide
 ```
 npm install grunt-contrib-imagemin --save-dev
 grunt imagemin
-
 ```

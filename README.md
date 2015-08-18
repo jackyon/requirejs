@@ -38,14 +38,18 @@ sudo chmod +x app/build/build.sh
 app/build/build.sh
 ```
 
-#### 2. Grunt:
+#### 2. Gulp:
 
-##### grunt imagemin (Minify images)
-This plugin requires Grunt >=0.4.0
+##### install gulp:
+https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 
-If you haven't used Grunt before, be sure to check out the Getting Started guide, as it explains how to create a Gruntfile as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
+##### Gulp connect(livereload):
+$ npm install --save-dev gulp-connect
 
-```
-npm install grunt-contrib-imagemin --save-dev
-grunt imagemin
-```
+ps: sometimes the livereload function not working correctly until you restart.
+
+##### Gulp autoprefixer:
+$ npm install --save-dev gulp-autoprefixer
+
+##### Gulp run
+$ gulp

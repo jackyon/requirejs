@@ -44,12 +44,18 @@ app/build/build.sh
 https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 
 ##### Gulp connect(livereload):
+```
 $ npm install --save-dev gulp-connect
+```
 
 ps: sometimes the livereload function not working correctly until you restart.
 
 ##### Gulp autoprefixer:
+```
 $ npm install --save-dev gulp-autoprefixer
+```
 
 ##### Gulp run
+```
 $ gulp
+```

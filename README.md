@@ -1,7 +1,7 @@
 Requirejs base structure
 ==================================
 
-> This is just workflow structure for my base workflow.
+> This is just the structure for my base workflow. Still updading...
 
 ### Folder Structure
 ```
@@ -20,7 +20,8 @@ src
 │       ├── views/
 │       └── app.js
 ├── dist/ ----------------------------------------- (after build)
-├── Gruntfiles.js
+├── node_modules ---------------------------------- (after install gulp)
+├── gulpfile.js
 ├── package.json
 
 ```
@@ -29,7 +30,7 @@ src
 
 ### Usage:
 
-#### 1. build js/css/html
+#### 1. Requirejs: build js/css/html
 
 > in terminal run:
 

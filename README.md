@@ -46,13 +46,13 @@ https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 
 ##### (2) Gulp Browsersync:
 ```
-$ npm install browser-sync gulp --save-dev
+$ sudo npm install browser-sync gulp --save-dev
 ```
 
 
 ##### (3) Gulp autoprefixer:
 ```
-$ npm install --save-dev gulp-autoprefixer
+$ sudo npm install --save-dev gulp-autoprefixer
 ```
 
 #### Gulp run

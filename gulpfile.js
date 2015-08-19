@@ -1,41 +1,40 @@
 'use strict';
 
 var gulp = require('gulp'),
-	connect = require('gulp-connect'),
-	autoprefixer = require('gulp-autoprefixer');
- 
-gulp.task('connect', function() {
-	connect.server({
-		root: 'app',
-		port: 9998,
-		livereload: true
-	});
-});
+	autoprefixer = require('gulp-autoprefixer'),
+	browserSync = require('browser-sync');
 
 gulp.task('html', function () {
-	gulp.src('./app/**/*.html')
-    	.pipe(connect.reload());
+	gulp.src('./app/*.html')
 });
 
 gulp.task('css', function () {
-	gulp.src('./app/css/**/*.css')
+	gulp.src('./app/css/*.css')
 		.pipe(autoprefixer({
             browsers: ['last 2 versions'],
             cascade: false
         }))
         .pipe(gulp.dest('app/css/'))
-    	.pipe(connect.reload());
 });
 
 gulp.task('js', function () {
-	gulp.src('./app/js/**/*.js')
-    	.pipe(connect.reload());
+	gulp.src('./app/js/*.js')
 });
- 
+
+gulp.task('html-watch', ['html'], browserSync.reload);
+gulp.task('css-watch', ['css'], browserSync.reload);
+gulp.task('js-watch', ['js'], browserSync.reload);
+
 gulp.task('watch', function () {
-	gulp.watch(['./app/**/*.html'], ['html']);
-	gulp.watch(['./app/css/**/*.css'], ['css']);
-	gulp.watch(['./app/js/**/*.js'], ['js']);
+	browserSync({
+		server: {
+			baseDir: 'app/'
+		}
+		// proxy: "yourlocal.dev"
+	})
+	gulp.watch(['./app/*.html'], ['html-watch']);
+	gulp.watch(['./app/css/*.css'], ['css-watch']);
+	gulp.watch(['./app/js/*.js'], ['js-watch']);
 });
  
-gulp.task('default', ['connect', 'watch']);
+gulp.task('default', ['watch']);

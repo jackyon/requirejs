@@ -44,12 +44,11 @@ app/build/build.sh
 ##### (1) install gulp:
 https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 
-##### (2) Gulp connect(livereload):
+##### (2) Gulp Browsersync:
 ```
-$ npm install --save-dev gulp-connect
+$ npm install browser-sync gulp --save-dev
 ```
 
-ps: sometimes the livereload function not working correctly until you restart.
 
 ##### (3) Gulp autoprefixer:
 ```

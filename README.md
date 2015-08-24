@@ -49,12 +49,6 @@ https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 $ sudo npm install browser-sync gulp --save-dev
 ```
 
-
-##### (3) Gulp autoprefixer:
-```
-$ sudo npm install --save-dev gulp-autoprefixer
-```
-
 #### Gulp run
 ```
 $ gulp

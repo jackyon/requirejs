@@ -36,8 +36,9 @@ src
 
 ```
 sudo chmod +x app/build/build.sh
-app/build/build.sh
+build/build.sh
 ```
+(run the "build/build.sh" in app folder)
 
 #### 2. Gulp:
 

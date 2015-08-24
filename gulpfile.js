@@ -1,7 +1,7 @@
 'use strict';
 
 var gulp = require('gulp'),
-	autoprefixer = require('gulp-autoprefixer'),
+	// autoprefixer = require('gulp-autoprefixer'),
 	browserSync = require('browser-sync');
 
 gulp.task('html', function () {
@@ -10,11 +10,11 @@ gulp.task('html', function () {
 
 gulp.task('css', function () {
 	gulp.src('./app/css/*.css')
-		.pipe(autoprefixer({
-            browsers: ['last 2 versions'],
-            cascade: false
-        }))
-        .pipe(gulp.dest('app/css/'))
+		// .pipe(autoprefixer({
+  //           browsers: ['last 2 versions'],
+  //           cascade: false
+  //       }))
+  //       .pipe(gulp.dest('app/css/'))
 });
 
 gulp.task('js', function () {

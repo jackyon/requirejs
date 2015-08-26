@@ -12,17 +12,20 @@ src
 │   │   ├── build.sh
 │   ├── css/
 │       ├── models/
+│       ├── views/
+│       ├── plugins/
 │       ├── styles.css
 │   ├── images/
+│   ├── fonts/
 │   └── js/
 │       ├── libs/
 │       ├── models/
 │       ├── views/
+│       ├── plugins/
 │       └── app.js
 ├── dist/ ----------------------------------------- (after build)
 ├── node_modules ---------------------------------- (after install gulp)
 ├── gulpfile.js
-├── package.json
 
 ```
 

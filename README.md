@@ -26,7 +26,7 @@ src
 ├── dist/ ----------------------------------------- (after build)
 ├── node_modules ---------------------------------- (after install gulp)
 ├── gulpfile.js
-├── 
+├── package.json  ---------------------------------- (browser-sync, gulp-ruby-sass)
 
 ```
 

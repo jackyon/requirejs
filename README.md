@@ -1,7 +1,7 @@
 Requirejs base structure
 ==================================
 
-> This is just the structure for my base workflow. Still updading...
+> This is just the structure for my base workflow. Still updating...
 
 ### Folder Structure
 ```

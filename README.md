@@ -26,6 +26,7 @@ src
 ├── dist/ ----------------------------------------- (after build)
 ├── node_modules ---------------------------------- (after install gulp)
 ├── gulpfile.js
+├── 
 
 ```
 
@@ -48,12 +49,12 @@ build/build.sh
 ##### (1) install gulp:
 https://github.com/gulpjs/gulp/blob/master/docs/getting-started.md
 
-##### (2) Gulp Browsersync:
+##### (2) packages install:
 ```
-$ sudo npm install browser-sync gulp --save-dev
+$ npm install
 ```
 
-#### Gulp run
+#### (3) Gulp run
 ```
 $ gulp
 ```

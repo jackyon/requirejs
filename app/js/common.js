@@ -1,9 +1,8 @@
 require.config({
-	//remove js cache
-    urlArgs: "bust=" + (new Date()).getTime(),
+    urlArgs: "bust=" + (new Date()).getTime(),  //remove js cache
     waitSeconds: 0,
     paths: {
-        jquery: 'libs/jquery/jquery.min'
+        'jquery': 'libs/jquery/jquery.min'
     }
     // shim: {
     // 	fullPage: ['jquery'],

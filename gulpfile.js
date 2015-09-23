@@ -2,6 +2,7 @@
 
 var gulp = require('gulp'),
 	sass = require('gulp-ruby-sass'),
+	autoprefixer = require('gulp-autoprefixer'),
 	browserSync = require('browser-sync');
 
 gulp.task('html', function () {
@@ -23,6 +24,10 @@ gulp.task('js-watch', ['js'], browserSync.reload);
 gulp.task('sass-watch', function () {
   return sass('./app/sass')
     .on('error', sass.logError)
+    .pipe(autoprefixer({
+            browsers: ['> 1%'],
+            cascade: false
+    }))
     .pipe(gulp.dest('./app/css'));
 });
 
